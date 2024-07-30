@@ -99,3 +99,42 @@ window.addEventListener("scroll", activeMenu);
 // window.addEventListener("scroll",function(){
 //     stickyHeader.classList.toggle("sticky",window.scrollY > 50)
 // })
+// ==== Funcationality For Increment ====
+
+let experience = document.querySelector(".experience");
+
+let count = 0;
+
+let maxCount = 2;
+
+setInterval(() => {
+  if (count < maxCount) {
+    count++;
+    experience.textContent = count;
+  } else {
+    clearInterval(this);
+  }
+}, 700);
+
+let project = document.querySelector(".project");
+
+let maxCount1 = 21;
+setInterval(() => {
+  if (count < maxCount1) {
+    count++;
+    project.textContent = count;
+  } else {
+    clearInterval(this);
+  }
+}, 50);
+
+let client = document.querySelector(".client");
+
+setInterval(() => {
+  if (count < maxCount1) {
+    count++;
+    client.textContent = count;
+  } else {
+    clearInterval(this);
+  }
+}, 50);
