@@ -118,22 +118,11 @@ setInterval(() => {
 
 let project = document.querySelector(".project");
 
-let maxCount1 = 21;
+let maxCount1 = 15;
 setInterval(() => {
   if (count < maxCount1) {
     count++;
     project.textContent = count;
-  } else {
-    clearInterval(this);
-  }
-}, 50);
-
-let client = document.querySelector(".client");
-
-setInterval(() => {
-  if (count < maxCount1) {
-    count++;
-    client.textContent = count;
   } else {
     clearInterval(this);
   }
