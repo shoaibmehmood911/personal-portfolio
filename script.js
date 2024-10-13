@@ -118,7 +118,7 @@ setInterval(() => {
 
 let project = document.querySelector(".project");
 
-let maxCount1 = 15;
+let maxCount1 = 10;
 setInterval(() => {
   if (count < maxCount1) {
     count++;
