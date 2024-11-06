@@ -435,7 +435,7 @@ a.btn:nth-child(2)::before {
 .section-services .service-box {
   padding: 2rem;
   text-align: center;
-  background: #000;
+  background: #250821;
   box-shadow: 0 0 5px 1px #12f7ff;
   transition: 0.4s;
   border-radius: 10px;
@@ -452,7 +452,7 @@ a.btn:nth-child(2)::before {
 .services-icon {
   font-size: 3rem;
   border: 2px solid var(--hover-color);
-  background-color: #000;
+  background-color: #250821;
   padding: 2rem;
   border-radius: 50%;
   display: flex;
